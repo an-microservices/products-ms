@@ -7,9 +7,11 @@ A robust NestJS microservice for managing product data with TCP-based communicat
 - **TCP Microservice**: Built with NestJS microservices using TCP transport
 - **Database**: SQLite with Prisma ORM for data persistence
 - **Validation**: Input validation using class-validator and DTOs
-- **CRUD Operations**: Complete product management functionality
-- **Pagination**: Built-in pagination support for product listings
+- **CRUD Operations**: Complete product management functionality (Create, Read, Update, Soft Delete)
+- **Pagination**: Built-in pagination support with metadata
 - **UUID Support**: Automatic UUID generation for products
+- **Soft Delete**: Products are marked as unavailable instead of hard deletion
+- **Product Validation**: Bulk product validation for external services
 - **Environment Configuration**: Joi-based environment validation
 - **Code Quality**: ESLint and Prettier configured
 - **Type Safety**: Full TypeScript support

@@ -1,10 +1,10 @@
 # Products Microservice
 
-A robust NestJS microservice for managing product data with TCP-based communication, SQLite database with Prisma ORM, and comprehensive CRUD operations.
+A robust NestJS microservice for managing product data with NATS-based communication, SQLite database with Prisma ORM, and comprehensive CRUD operations.
 
 ## Features
 
-- **TCP Microservice**: Built with NestJS microservices using TCP transport
+- **NATS Microservice**: Built with NestJS microservices using NATS transport
 - **Database**: SQLite with Prisma ORM for data persistence
 - **Validation**: Input validation using class-validator and DTOs
 - **CRUD Operations**: Complete product management functionality (Create, Read, Update, Soft Delete)
@@ -64,7 +64,7 @@ npm run start:prod
 
 ## Microservice Communication
 
-This service communicates via TCP.
+This service communicates via NATS.
 
 ## 📁 Project Structure
 
